@@ -1,0 +1,13 @@
+[package]
+name = "from-rust"
+version = "0.1.0"
+authors = ["Eduardo dos Santos Leal <eduardoleal1981@gmail.com>"]
+description = "A simple template with wasm-pack"
+repository = "https://github.com/tcarvi/websitequarkustemplate/src/main/wasm/from-rust"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
