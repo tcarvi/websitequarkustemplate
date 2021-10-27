@@ -1,6 +1,6 @@
 package com.tcarvi.websitequarkustemplate.rest.server.resource.wasm;
 
-public class Wasm {
+public class WasmFunctions {
 
 	public static int getNumberDb() {
 		return 0;
